@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/activities")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://padmanaphan.github.io")
 public class DockActivityController {
 
     private final DockActivityService dockActivityService;
