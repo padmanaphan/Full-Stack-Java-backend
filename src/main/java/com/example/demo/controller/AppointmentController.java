@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/appointments")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://padmanaphan.github.io")
 public class AppointmentController {
 
     private final AppointmentService appointmentService;
