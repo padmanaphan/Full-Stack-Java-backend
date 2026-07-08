@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/bays")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://padmanaphan.github.io")
 public class BayController {
 
     private final BayService bayService;
